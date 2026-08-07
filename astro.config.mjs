@@ -19,7 +19,7 @@ export default defineConfig({
         replacesTitle: true,
       },
       social: {
-        github: 'https://github.com/zsnourish/pulse-docs',
+        github: 'https://github.com/zsnourish/pulse',
       },
       // Auto-computed from git history — no manual "last updated" entry needed.
       lastUpdated: true,
@@ -80,7 +80,7 @@ export default defineConfig({
         },
       ],
       editLink: {
-        baseUrl: 'https://github.com/zsnourish/pulse-docs/edit/main/',
+        baseUrl: 'https://github.com/zsnourish/pulse/edit/main/',
       },
       // Light-only theme, no dark mode toggle — matches GitBook's default look.
       components: {
