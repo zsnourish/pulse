@@ -5,7 +5,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Pulse Docs',
-      description: 'Pulse component documentation and tracker',
+      description: 'Pulse design system guidance',
       customCss: ['./src/styles/nourish-theme.css', './src/styles/sidebar-icons.css'],
       head: [
         {

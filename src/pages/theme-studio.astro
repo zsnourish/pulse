@@ -6,10 +6,7 @@
 // send it back (or push it yourself) to apply it.
 //
 // Scope note: this only covers CSS — visual styling (colour, font, spacing,
-// roundness). Button/label *wording* (like Decap's "New doc" or "Publish")
-// lives in config.yml / locale-en.js, not CSS, and isn't something a
-// client-side style tool can safely rewrite — ask directly for wording
-// changes and they'll get made in those files instead.
+// roundness). It can't change wording or page content.
 ---
 
 <html lang="en">
@@ -197,7 +194,7 @@
     <button class="action secondary" id="downloadBtn">Download nourish-theme.css</button>
 
     <div class="note">
-      <strong>Not covered here:</strong> button/label text (e.g. Decap's "New doc", "Publish", homepage card titles) is content, not CSS — it lives in <code>config.yml</code> / <code>locale-en.js</code>. Ask directly for wording changes.
+      <strong>Not covered here:</strong> wording, such as homepage card titles, is content, not CSS. Change it by editing the page in GitHub.
     </div>
 
     <textarea id="cssOut" readonly></textarea>

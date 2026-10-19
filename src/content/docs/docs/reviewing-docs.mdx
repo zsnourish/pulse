@@ -1,13 +1,15 @@
 ---
 title: Publishing Docs
 name: "pulse-system-reviewing-docs"
-description: "1. A designer drafts or edits a page at /admin."
+description: "How a change to a Pulse docs page is drafted, reviewed and published through GitHub."
 status: approved
 ---
 
-1. A designer drafts or edits a page at `/admin`.
-2. Draft is saved — with Git Gateway enabled, this opens as an "unpublished entry" (Decap's internal draft state) that others can view and comment on before it's merged.
-3. Someone else on the team reviews the diff and approves.
-4. Publishing the entry commits it to `main` and Netlify redeploys the site automatically — usually live within a minute.
+1. A designer opens the page and selects **Edit this page**. This opens the file in GitHub's web editor, so no local checkout is needed.
+2. They make the change and save it to a new branch as a pull request.
+3. Someone else on the team reviews the change and approves it. Authors don't approve their own changes.
+4. Merging the pull request into `main` makes Netlify redeploy the site, usually within a minute.
 
-Everything here is derived from the `pulse-docs` GitHub repo — no separate copy in Notion or Supernova to keep in sync.
+Merging a change doesn't make a page `approved` on its own. Each page's `status` (`draft`, `in-review`, `approved` or `deprecated`) is set deliberately, once the content has been reviewed for that purpose.
+
+Everything on this site comes from its GitHub repository. There is no separate copy in Notion or Supernova to keep in sync.
